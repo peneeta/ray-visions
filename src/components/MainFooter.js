@@ -7,27 +7,13 @@ export default function MainFooter() {
   return (
     <footer className="footer">
       <Container>
-            <Row>
-                <Col md={4} sm={6}>
-                    <h2>Ray Visions</h2>
+            <Row className='justify-content-around mb-3'>
+                <Col md={3} sm={6}>
+                    <h2 as={ Link } to="/">Ray Visions</h2>
                     <p>Liquid Core Light Guides and Radiation Imaging Products</p>
                 </Col>
-            </Row>
-
-            <Row>
-                <Col md={4} sm={6}>
-                    <h5><Link to={"/"}>Home</Link></h5>
-                    <h5>Light Guides</h5>
-                    <ul className="footer-links">
-                        <li><Link to={"/"}>Displays</Link></li>
-                        <li><Link to={"/"}>Industrial</Link></li>
-                        <li><Link to={"/"}>Bulbs</Link></li>
-                        <li><Link to={"/"}>Medical</Link></li>
-                    </ul>
-                    <h5><Link to={"/"}>Pricing</Link></h5>
-                    <h5><Link to={"/contact"}>Contact</Link></h5>
-                </Col>
-                <Col md={4}>
+            
+                <Col md={3}>
                     <h5>Contact Us</h5>
                     <p>Email: sales@rayvisions.com</p>
                     <p>Phone: (757)-865-6442</p>

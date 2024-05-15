@@ -36,7 +36,7 @@ function Homepage() {
         </div>
 
         <div className="p-5 container">
-            <h1>What We Offer</h1>
+            <h2>What We Offer</h2>
             <p>Light Guides and Sources</p>
             <p>Medical and Animal Imaging</p>
         </div>
