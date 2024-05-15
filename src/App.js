@@ -5,6 +5,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Contact from './pages/Contact';
 import MainNavbar from './components/MainNavbar';
+import MainFooter from './components/MainFooter';
 
 export default function App() {
     return (
@@ -19,6 +20,8 @@ export default function App() {
                   <Error404 />
               </Route> */}
           </Routes>
+
+          <MainFooter />
 
         </>
     );
